@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like Button with Reactions</title>
+    <link rel="stylesheet" href="likes.css">
+</head>
+<body>
+    <div class="like">
+      <img src="https://assets.onecompiler.app/42pkjjzj7/42tzyzyru/_125413098_bts976.jpg" alt="bts" />
+        <button class="btn" onclick="toggleReactions()">Like</button>
+          <span id="count">0</span>
+        <div id="list" class="list">
+            <span class="reaction" onclick="react('👍')">👍</span>
+            <span class="reaction" onclick="react('❤️')">❤️</span>
+            <span class="reaction" onclick="react('😂')">😂</span>
+            <span class="reaction" onclick="react('😮')">😮</span>
+            <span class="reaction" onclick="react('😥')">😢</span>
+            <span class="reaction" onclick="react('😡')">😡</span>
+        </div>
+        <span id="selected-reaction"></span>
+        </div>
+    <script src="likes.js"></script>
+</body>
+</html>

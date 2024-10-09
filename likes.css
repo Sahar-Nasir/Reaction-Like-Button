@@ -1,0 +1,46 @@
+.like{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #795757;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+img{
+  height: 300px;
+  width: 300px;
+  border: 2px solid #795757;
+}
+.btn:hover {
+    background-color: #3B3030;
+}
+
+.list {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #D0B8A8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.reaction {
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.reaction:hover {
+    transform: scale(1.3);
+}
